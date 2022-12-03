@@ -1,0 +1,47 @@
+body {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #eeeeee;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #fff
+}
+
+header .logo {
+    width: 20%;
+    font-size: 24px;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .navigation {
+    width: 80%;
+    text-align: right
+}
+
+header .navigation a {
+    padding:8px 16px;
+    margin: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #111
+}
+
+header .navigation a:hover {
+  background: #ccc;
+}
+
+main {
+    background: #fff;
+}
